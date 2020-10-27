@@ -12,8 +12,4 @@ To start the game, go to your terminal:
 3. Type 'npm i' to install dependencies
 4. Type 'npm start'
 
-When playing the game, be sure to remove the code 
-
-/* <p>{ arr}</p> */' 
-
-in line 106
+When playing the game, be sure to remove the paragraph tag code in line 106.
