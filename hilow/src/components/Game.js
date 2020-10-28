@@ -100,15 +100,229 @@ const Game = () => {
         // setArr(array)
         return array;
       }
-
+    
+    function imageReader (number) {
+      if (number === 0)
+      return "/images/card.JPG"
+      if (number === 1)
+      return "/images/card1.JPG"
+      if (number === 2)
+      return "/images/card2.JPG"
+      if (number === 3)
+      return "/images/card3.JPG"
+      if (number === 4)
+      return "/images/card4.JPG"
+      if (number === 5)
+      return "/images/card5.JPG"
+      if (number === 6)
+      return "/images/card6.JPG"
+      if (number === 7)
+      return "/images/card7.JPG"
+      if (number === 8)
+      return"/images/card8.JPG"
+      if (number === 9)
+      return "/images/card9.JPG"
+    }
     return(
         <div>
              <p>{ arr}</p>
+             <br />
              <button onClick={buttonHigh}>High</button>
              <br />
              <button onClick={buttonLow}>Low</button>
              <p>win count: {winCount}</p>
-             <p>
+              <img src={
+                winCount === 0 ?
+                imageReader(arr[0]) :
+                winCount === 1 ?
+                imageReader(arr[0]) :
+                winCount === 2 ?
+                imageReader(arr[0]) :
+                winCount === 3 ?
+                imageReader(arr[0]) :
+                winCount === 4 ?
+                imageReader(arr[0]) :
+                winCount === 5 ?
+                imageReader(arr[0]) :
+                winCount === 6 ?
+                imageReader(arr[0]) :
+                winCount === 7 ?
+                imageReader(arr[0]) :
+                winCount === 8 ?
+                imageReader(arr[0]) :
+                ''
+              } />
+              {/* 2nd card */}
+              <img src={
+                winCount === 0 ?
+                imageReader(0) :
+                winCount === 1 ?
+                imageReader(arr[1]) :
+                winCount === 2 ?
+                imageReader(arr[1]) :
+                winCount === 3 ?
+                imageReader(arr[1]) :
+                winCount === 4 ?
+                imageReader(arr[1]) :
+                winCount === 5 ?
+                imageReader(arr[1]) :
+                winCount === 6 ?
+                imageReader(arr[1]) :
+                winCount === 7 ?
+                imageReader(arr[1]) :
+                winCount === 8 ?
+                imageReader(arr[1]) :
+                ''
+              } />
+               <img src={
+              winCount === 0 ?
+              imageReader(0) :
+              winCount === 1 ?
+              imageReader(0) :
+              winCount === 2 ?
+              imageReader(arr[2]) :
+              winCount === 3 ?
+              imageReader(arr[2]) :
+              winCount === 4 ?
+              imageReader(arr[2]) :
+              winCount === 5 ?
+              imageReader(arr[2]) :
+              winCount === 6 ?
+              imageReader(arr[2]) :
+              winCount === 7 ?
+              imageReader(arr[2]) :
+              winCount === 8 ?
+              imageReader(arr[2]) :
+              ''
+             } />
+               <img src={
+              winCount === 0 ?
+              imageReader(0) :
+              winCount === 1 ?
+              imageReader(0) :
+              winCount === 2 ?
+              imageReader(0)  :
+              winCount === 3 ?
+              imageReader(arr[3])  :
+              winCount === 4 ?
+              imageReader(arr[3]) :
+              winCount === 5 ?
+              imageReader(arr[3]) :
+              winCount === 6 ?
+              imageReader(arr[3]) :
+              winCount === 7 ?
+              imageReader(arr[3]) :
+              winCount === 8 ?
+              imageReader(arr[3]) :
+              ''
+             } />
+               <img src={
+              winCount === 0 ?
+              imageReader(0) :
+              winCount === 1 ?
+              imageReader(0) :
+              winCount === 2 ?
+              imageReader(0)  :
+              winCount === 3 ?
+              imageReader(0)  :
+              winCount === 4 ?
+              imageReader(arr[4]) :
+              winCount === 5 ?
+              imageReader(arr[4]) :
+              winCount === 6 ?
+              imageReader(arr[4]) :
+              winCount === 7 ?
+              imageReader(arr[4]) :
+              winCount === 8 ?
+              imageReader(arr[4]) :
+              ''
+             } />
+               <img src={
+              winCount === 0 ?
+              imageReader(0) :
+              winCount === 1 ?
+              imageReader(0) :
+              winCount === 2 ?
+              imageReader(0)  :
+              winCount === 3 ?
+              imageReader(0)  :
+              winCount === 4 ?
+              imageReader(0)  :
+              winCount === 5 ?
+              imageReader(arr[5])  :
+              winCount === 6 ?
+              imageReader(arr[5]) :
+              winCount === 7 ?
+              imageReader(arr[5]) :
+              winCount === 8 ?
+              imageReader(arr[5]) :
+              ''
+             } />
+               <img src={
+             winCount === 0 ?
+             imageReader(0) :
+             winCount === 1 ?
+             imageReader(0) :
+             winCount === 2 ?
+             imageReader(0)  :
+             winCount === 3 ?
+             imageReader(0)  :
+             winCount === 4 ?
+             imageReader(0)  :
+             winCount === 5 ?
+             imageReader(0)  :
+             winCount === 6 ?
+             imageReader(arr[6])  :
+             winCount === 7 ?
+             imageReader(arr[6]) :
+             winCount === 8 ?
+             imageReader(arr[6]) :
+             ''
+             } />
+               <img src={
+              winCount === 0 ?
+              imageReader(0) :
+              winCount === 1 ?
+              imageReader(0) :
+              winCount === 2 ?
+              imageReader(0)  :
+              winCount === 3 ?
+              imageReader(0)  :
+              winCount === 4 ?
+              imageReader(0)  :
+              winCount === 5 ?
+              imageReader(0)  :
+              winCount === 6 ?
+              imageReader(0)  :
+              winCount === 7 ?
+              imageReader(arr[7]) :
+              winCount === 8 ?
+              imageReader(arr[7]) :
+              ''
+             } />
+               <img src={
+               winCount === 0 ?
+               imageReader(0) :
+               winCount === 1 ?
+               imageReader(0) :
+               winCount === 2 ?
+               imageReader(0)  :
+               winCount === 3 ?
+               imageReader(0)  :
+               winCount === 4 ?
+               imageReader(0)  :
+               winCount === 5 ?
+               imageReader(0)  :
+               winCount === 6 ?
+               imageReader(0)  :
+               winCount === 7 ?
+               imageReader(0)  :
+               winCount === 8 ?
+               imageReader(arr[8])  :
+               ''
+             } />
+             {/* <img src="/images/card.JPG" /> */}
+             {/* <p>
               {winCount === 0 ? arr[0] : ''}
               {winCount === 1 ? arr[0] + '' + arr[1] : ''} 
               {winCount === 2 ? arr[0] + '' + arr[1] + '' + arr[2] : ''} 
@@ -118,7 +332,7 @@ const Game = () => {
               {winCount === 6 ? arr[0] + '' + arr[1] + '' + arr[2] + '' + arr[3] + '' + arr[4] + '' + arr[5]+ '' + arr[6] : ''} 
               {winCount === 7 ? arr[0] + '' + arr[1] + '' + arr[2] + '' + arr[3] + '' + arr[4] + '' + arr[5]+ '' + arr[6]+ '' + arr[7] : ''}
               {winCount === 8 ? arr[0] + '' + arr[1] + '' + arr[2] + '' + arr[3] + '' + arr[4] + '' + arr[5]+ '' + arr[6]+ '' + arr[7] + '' + arr[8] : ''}
-             </p>
+             </p> */}
              {/* <p> {useERan ? (verifier ? arr[i]: arr) : ''}</p>  */}
         </div>
     )
